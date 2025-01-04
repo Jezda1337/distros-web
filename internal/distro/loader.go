@@ -1,8 +1,8 @@
 package distro
 
 import (
-	"os"
 	"encoding/json"
+	"os"
 )
 
 func LoadDistrosFromFile(filePath string) ([]Distro, error) {
