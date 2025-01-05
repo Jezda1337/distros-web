@@ -35,6 +35,7 @@ type Distro struct {
 		IssueTracker  Link `json:"issue_tracker"`
 		Forum         Link `json:"forum"`
 		Documentation Link `json:"documentation"`
+		Donate        Link `json:"donate"`
 	} `json:"links"`
 	Metadata Metadata `json:"metadata"`
 }

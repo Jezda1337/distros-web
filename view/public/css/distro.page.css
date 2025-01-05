@@ -17,12 +17,21 @@
   font-size: 1rem;
 }
 
-.distro-header a {
-  font-size: 1rem;
-  margin-left: auto;
+.distro-header {
+  & a:not(.btn:last-child) {
+    margin-left: auto;
+  }
+  & a:last-child {
+    margin-left: 8px;
+  }
 }
+
 .distro-content {
   grid-column-start: 2;
+}
+
+.btn--donate {
+  background-color: green;
 }
 
 /* Hide arrow glyph */

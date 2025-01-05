@@ -1,142 +1,247 @@
 [
-    {
-        "id": 1,
-        "name": "Arch Linux",
-        "logo": "/public/logos/arch.svg",
-        "images": [
-            "path/to/arch_image1.png",
-            "path/to/arch_image2.png"
-        ],
-        "description": "A lightweight and flexible Linux distribution that tries to Keep It Simple.",
-        "information": {
-            "install_size": "700 MB",
-            "download_size": "450 MB",
-            "architecture": "x86_64",
-            "total_installs": 1000,
-            "latest_version": "2025.01.01",
-            "release_date": "2002-03-11",
-            "is_rolling_release": true
-        },
-        "tags": ["Rolling-Release", "x86_64", "Minimal"],
-        "categories": ["popular", "trending"],
-        "links": {
-            "website": {"label": "Project Website", "icon": "world", "url": "https://archlinux.org/"},
-            "issue_tracker": {"label": "Report an Issue", "icon": "flag", "url": "https://gitlab.archlinux.org/groups/archlinux/-/issues"},
-            "forum": {"label": "Community Forum", "icon": "forum", "url": "https://bbs.archlinux.org/"},
-            "documentation": {"label": "Project Documentation", "icon": "file", "url": "http://wiki.archlinux.org/"}
-        },
-        "metadata": {"created_at": "2024-01-01T00:00:00Z", "updated_at": "2025-01-01T12:00:00Z"}
+  {
+    "id": 1,
+    "name": "Arch Linux",
+    "logo": "/public/logos/arch.svg",
+    "images": ["path/to/arch_image1.png", "path/to/arch_image2.png"],
+    "description": "A lightweight and flexible Linux distribution that tries to Keep It Simple.",
+    "information": {
+      "install_size": "700 MB",
+      "download_size": "450 MB",
+      "architecture": "x86_64",
+      "total_installs": 1000,
+      "latest_version": "2025.01.01",
+      "release_date": "2002-03-11",
+      "is_rolling_release": true
     },
-    {
-        "id": 2,
-        "name": "Ubuntu",
-        "logo": "/public/logos/ubuntu.svg",
-        "images": [
-            "path/to/ubuntu_image1.png",
-            "path/to/ubuntu_image2.png"
-        ],
-        "description": "A user-friendly Linux distribution based on Debian, popular for desktops and servers.",
-        "information": {
-            "install_size": "4 GB",
-            "download_size": "2 GB",
-            "architecture": "x86_64, ARM",
-            "total_installs": 5000000,
-            "latest_version": "24.04 LTS",
-            "release_date": "2004-10-20",
-            "is_rolling_release": false
-        },
-        "tags": ["Stable", "x86_64", "LTS"],
-        "categories": ["popular", "new"],
-        "links": {
-            "website": {"label": "Project Website", "icon": "world", "url": "https://ubuntu.com/"},
-            "issue_tracker": {"label": "Report an Issue", "icon": "flag", "url": "https://bugs.launchpad.net/"},
-            "forum": {"label": "Community Forum", "icon": "forum", "url": "https://ubuntuforums.org/"},
-            "documentation": {"label": "Project Documentation", "icon": "file", "url": "https://help.ubuntu.com/"}
-        },
-        "metadata": {"created_at": "2024-01-01T00:00:00Z", "updated_at": "2025-01-01T12:00:00Z"}
+    "tags": ["Rolling-Release", "x86_64", "Minimal"],
+    "categories": ["popular", "trending"],
+    "links": {
+      "website": {
+        "label": "Project Website",
+        "icon": "world",
+        "url": "https://archlinux.org/"
+      },
+      "issue_tracker": {
+        "label": "Report an Issue",
+        "icon": "flag",
+        "url": "https://gitlab.archlinux.org/groups/archlinux/-/issues"
+      },
+      "forum": {
+        "label": "Community Forum",
+        "icon": "forum",
+        "url": "https://bbs.archlinux.org/"
+      },
+      "documentation": {
+        "label": "Project Documentation",
+        "icon": "file",
+        "url": "http://wiki.archlinux.org/"
+      },
+      "donate": {
+        "label": "Donate",
+        "icon": "",
+        "url": "https://archlinux.org/donate/"
+      }
     },
-    {
-        "id": 3,
-        "name": "Fedora",
-        "logo": "/public/logos/fedora.svg",
-        "images": [
-            "path/to/fedora_image1.png",
-            "path/to/fedora_image2.png"
-        ],
-        "description": "An innovative, free, and open-source Linux distribution, developed by the Fedora Project.",
-        "information": {
-            "install_size": "5 GB",
-            "download_size": "2 GB",
-            "architecture": "x86_64, ARM",
-            "total_installs": 2000000,
-            "latest_version": "39",
-            "release_date": "2003-11-06",
-            "is_rolling_release": false
-        },
-        "tags": ["Stable", "Innovative", "x86_64"],
-        "categories": ["popular", "new", "trending"],
-        "links": {
-            "website": {"label": "Project Website", "icon": "world", "url": "https://getfedora.org/"},
-            "issue_tracker": {"label": "Report an Issue", "icon": "flag", "url": "https://bugzilla.redhat.com/"},
-            "forum": {"label": "Community Forum", "icon": "forum", "url": "https://ask.fedoraproject.org/"},
-            "documentation": {"label": "Project Documentation", "icon": "file", "url": "https://docs.fedoraproject.org/"}
-        },
-        "metadata": {"created_at": "2024-01-01T00:00:00Z", "updated_at": "2025-01-01T12:00:00Z"}
-    },
-    {
-        "id": 4,
-        "name": "Debian",
-        "logo": "/public/logos/debian.svg",
-        "images": [
-            "path/to/debian_image1.png",
-            "path/to/debian_image2.png"
-        ],
-        "description": "A stable and versatile Linux distribution that forms the base for many others.",
-        "information": {
-            "install_size": "3 GB",
-            "download_size": "2 GB",
-            "architecture": "x86_64, ARM",
-            "total_installs": 1500000,
-            "latest_version": "12 (Bookworm)",
-            "release_date": "1993-08-16",
-            "is_rolling_release": false
-        },
-        "tags": ["Stable", "Versatile", "x86_64"],
-        "categories": ["popular", "new", "trending"],
-        "links": {
-            "website": {"label": "Project Website", "icon": "world", "url": "https://www.debian.org/"},
-            "issue_tracker": {"label": "Report an Issue", "icon": "flag", "url": "https://bugs.debian.org/"},
-            "forum": {"label": "Community Forum", "icon": "forum", "url": "https://forums.debian.net/"},
-            "documentation": {"label": "Project Documentation", "icon": "file", "url": "https://www.debian.org/doc/"}
-        },
-        "metadata": {"created_at": "2024-01-01T00:00:00Z", "updated_at": "2025-01-01T12:00:00Z"}
-    },
-    {
-        "id": 5,
-        "name": "Pop!_OS",
-        "logo": "/public/logos/pop-os.svg",
-        "images": [
-            "path/to/popos_image1.png",
-            "path/to/popos_image2.png"
-        ],
-        "description": "A modern and user-friendly Linux distribution designed for productivity and gaming.",
-        "information": {
-            "install_size": "4 GB",
-            "download_size": "2 GB",
-            "architecture": "x86_64",
-            "total_installs": 300000,
-            "latest_version": "22.04",
-            "release_date": "2017-10-19",
-            "is_rolling_release": false
-        },
-        "tags": ["Stable", "x86_64", "Gaming"],
-        "categories": ["popular", "new", "trending"],
-        "links": {
-            "website": {"label": "Project Website", "icon": "world", "url": "https://pop.system76.com/"},
-            "issue_tracker": {"label": "Report an Issue", "icon": "flag", "url": "https://github.com/pop-os/pop/issues"},
-            "forum": {"label": "Community Forum", "icon": "forum", "url": "https://reddit.com/r/pop_os/"},
-            "documentation": {"label": "Project Documentation", "icon": "file", "url": "https://support.system76.com/"}
-        },
-        "metadata": {"created_at": "2024-01-01T00:00:00Z", "updated_at": "2025-01-01T12:00:00Z"}
+    "metadata": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T12:00:00Z"
     }
+  },
+  {
+    "id": 2,
+    "name": "Ubuntu",
+    "logo": "/public/logos/ubuntu.svg",
+    "images": ["path/to/ubuntu_image1.png", "path/to/ubuntu_image2.png"],
+    "description": "A user-friendly Linux distribution based on Debian, popular for desktops and servers.",
+    "information": {
+      "install_size": "4 GB",
+      "download_size": "2 GB",
+      "architecture": "x86_64, ARM",
+      "total_installs": 5000000,
+      "latest_version": "24.04 LTS",
+      "release_date": "2004-10-20",
+      "is_rolling_release": false
+    },
+    "tags": ["Stable", "x86_64", "LTS"],
+    "categories": ["popular", "new"],
+    "links": {
+      "website": {
+        "label": "Project Website",
+        "icon": "world",
+        "url": "https://ubuntu.com/"
+      },
+      "issue_tracker": {
+        "label": "Report an Issue",
+        "icon": "flag",
+        "url": "https://bugs.launchpad.net/"
+      },
+      "forum": {
+        "label": "Community Forum",
+        "icon": "forum",
+        "url": "https://ubuntuforums.org/"
+      },
+      "documentation": {
+        "label": "Project Documentation",
+        "icon": "file",
+        "url": "https://help.ubuntu.com/"
+      },
+      "donate": {
+        "label": "Donate",
+        "icon": "",
+        "url": "https://ubuntu.com/community/contribute/donation"
+      }
+    },
+    "metadata": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T12:00:00Z"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fedora",
+    "logo": "/public/logos/fedora.svg",
+    "images": ["path/to/fedora_image1.png", "path/to/fedora_image2.png"],
+    "description": "An innovative, free, and open-source Linux distribution, developed by the Fedora Project.",
+    "information": {
+      "install_size": "5 GB",
+      "download_size": "2 GB",
+      "architecture": "x86_64, ARM",
+      "total_installs": 2000000,
+      "latest_version": "39",
+      "release_date": "2003-11-06",
+      "is_rolling_release": false
+    },
+    "tags": ["Stable", "Innovative", "x86_64"],
+    "categories": ["popular", "new", "trending"],
+    "links": {
+      "website": {
+        "label": "Project Website",
+        "icon": "world",
+        "url": "https://getfedora.org/"
+      },
+      "issue_tracker": {
+        "label": "Report an Issue",
+        "icon": "flag",
+        "url": "https://bugzilla.redhat.com/"
+      },
+      "forum": {
+        "label": "Community Forum",
+        "icon": "forum",
+        "url": "https://ask.fedoraproject.org/"
+      },
+      "documentation": {
+        "label": "Project Documentation",
+        "icon": "file",
+        "url": "https://docs.fedoraproject.org/"
+      },
+      "donate": {
+        "label": "Donate",
+        "icon": "",
+        "url": "https://fedoraproject.org/wiki/Donations"
+      }
+    },
+    "metadata": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T12:00:00Z"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Debian",
+    "logo": "/public/logos/debian.svg",
+    "images": ["path/to/debian_image1.png", "path/to/debian_image2.png"],
+    "description": "A stable and versatile Linux distribution that forms the base for many others.",
+    "information": {
+      "install_size": "3 GB",
+      "download_size": "2 GB",
+      "architecture": "x86_64, ARM",
+      "total_installs": 1500000,
+      "latest_version": "12 (Bookworm)",
+      "release_date": "1993-08-16",
+      "is_rolling_release": false
+    },
+    "tags": ["Stable", "Versatile", "x86_64"],
+    "categories": ["popular", "new", "trending"],
+    "links": {
+      "website": {
+        "label": "Project Website",
+        "icon": "world",
+        "url": "https://www.debian.org/"
+      },
+      "issue_tracker": {
+        "label": "Report an Issue",
+        "icon": "flag",
+        "url": "https://bugs.debian.org/"
+      },
+      "forum": {
+        "label": "Community Forum",
+        "icon": "forum",
+        "url": "https://forums.debian.net/"
+      },
+      "documentation": {
+        "label": "Project Documentation",
+        "icon": "file",
+        "url": "https://www.debian.org/doc/"
+      },
+      "donate": {
+        "label": "Donate",
+        "icon": "",
+        "url": "https://www.debian.org/donations"
+      }
+    },
+    "metadata": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T12:00:00Z"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Pop!_OS",
+    "logo": "/public/logos/pop-os.svg",
+    "images": ["path/to/popos_image1.png", "path/to/popos_image2.png"],
+    "description": "A modern and user-friendly Linux distribution designed for productivity and gaming.",
+    "information": {
+      "install_size": "4 GB",
+      "download_size": "2 GB",
+      "architecture": "x86_64",
+      "total_installs": 300000,
+      "latest_version": "22.04",
+      "release_date": "2017-10-19",
+      "is_rolling_release": false
+    },
+    "tags": ["Stable", "x86_64", "Gaming"],
+    "categories": ["popular", "new", "trending"],
+    "links": {
+      "website": {
+        "label": "Project Website",
+        "icon": "world",
+        "url": "https://pop.system76.com/"
+      },
+      "issue_tracker": {
+        "label": "Report an Issue",
+        "icon": "flag",
+        "url": "https://github.com/pop-os/pop/issues"
+      },
+      "forum": {
+        "label": "Community Forum",
+        "icon": "forum",
+        "url": "https://reddit.com/r/pop_os/"
+      },
+      "documentation": {
+        "label": "Project Documentation",
+        "icon": "file",
+        "url": "https://support.system76.com/"
+      },
+      "donate": {
+        "label": "Donate",
+        "icon": "",
+        "url": "https://pop.system76.com"
+      }
+    },
+    "metadata": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T12:00:00Z"
+    }
+  }
 ]
