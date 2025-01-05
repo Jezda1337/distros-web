@@ -25,20 +25,38 @@
   grid-column-start: 2;
 }
 
-#distro-links-toggle {
-  margin-left: 0.2rem;
-  anchor-name: --anchor_1;
-  font-size: 1rem;
+/* Hide arrow glyph */
+details > summary {
+  list-style: none;
+  cursor: pointer;
 }
 
-#distro-links-list {
-  position-area: bottom;
+/* Hide arrow glyph in Safari */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details {
+  position: relative;
+  margin-left: 6px;
+}
+details ul {
+  list-style: none;
   margin-top: 10px;
-  position-anchor: --anchor_1;
-  border-radius: 10px;
   padding: 0.8rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: max-content;
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
-::backdrop {
-  background-color: rgba(0,0,0,0.1);
+details ul a {
+  display: block;
+  padding: 5px 10px;
+  &:hover {
+    background: lightgray;
+    border-radius: 2px;
+  }
 }

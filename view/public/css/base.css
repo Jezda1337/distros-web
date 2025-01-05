@@ -29,7 +29,9 @@ button {
   cursor: pointer;
 }
 
-ul {
+ul,
+ol,
+details {
   list-style: none;
 }
 
@@ -73,7 +75,7 @@ main {
       align-items: center;
       gap: 8px;
 
-      @media(max-width: 768px) {
+      @media (max-width: 768px) {
         display: none;
       }
     }
@@ -86,4 +88,21 @@ main {
   border-radius: 4px;
   background: black;
   color: white;
+}
+
+.dd-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-height: 30px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  transition: all 250ms ease;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
 }

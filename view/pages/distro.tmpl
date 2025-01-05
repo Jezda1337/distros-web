@@ -11,8 +11,10 @@
         <p>{{ .Description }}</p>
       </div>
       <a class="btn" href="{{ .Links.Website.URL }}" target="_blank">Web Page</a>
-      <button class="btn" id="distro-links-toggle" popovertarget="distro-links-list">Open</button>
-      <div popover id="distro-links-list" anchor="distro-links-toggle">
+			<details id="dd-menu">
+				<summary class="dd-btn">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevrons-up-down"><path d="m7 15 5 5 5-5"/><path d="m7 9 5-5 5 5"/></svg>
+				</summary>
         <ul>
           <li>
             <a target="_blank" href="{{ .Links.IssueTracker.URL }}">{{ .Links.IssueTracker.Label }}</a>
@@ -24,7 +26,7 @@
             <a target="_blank" href="{{ .Links.Documentation.URL }}">{{ .Links.Documentation.Label }}</a>
           </li>
         </ul>
-      </div>
+			</details>
     </div>
     <section class="distro-content">
       <h1>Hi mom!</h1>
