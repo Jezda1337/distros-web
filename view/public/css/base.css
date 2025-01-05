@@ -88,6 +88,8 @@ main {
   border-radius: 4px;
   background: black;
   color: white;
+
+  min-width: max-content;
 }
 
 .dd-btn {
